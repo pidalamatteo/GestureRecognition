@@ -1,0 +1,414 @@
+{
+  "validation" : {
+    "confusion_matrix" : {
+      "Optional(\"Thumbs down\")" : {
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Thumbs down\")" : 33,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Ok sign\")" : 0
+      },
+      "Optional(\"Closed fist\")" : {
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Pointing up\")" : 1,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Closed fist\")" : 30,
+        "Optional(\"Unknown\")" : 2,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Thumbs down\")" : 0
+      },
+      "Optional(\"Unknown\")" : {
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Thumbs up\")" : 1,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Pinch\")" : 3,
+        "Optional(\"Unknown\")" : 28,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Stop sign\")" : 1,
+        "Optional(\"Thumbs down\")" : 0
+      },
+      "Optional(\"Open hand\")" : {
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Stop sign\")" : 2,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Open hand\")" : 31,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Peace\")" : 0
+      },
+      "Optional(\"Ok sign\")" : {
+        "Optional(\"Ok sign\")" : 32,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Stop sign\")" : 1
+      },
+      "Optional(\"Pointing down\")" : {
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Pointing down\")" : 32,
+        "Optional(\"Unknown\")" : 1,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Thumbs up\")" : 0
+      },
+      "Optional(\"Pointing up\")" : {
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing up\")" : 33,
+        "Optional(\"Closed fist\")" : 0
+      },
+      "Optional(\"Peace\")" : {
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Peace\")" : 32,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Pointing down\")" : 1,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing up\")" : 0
+      },
+      "Optional(\"Stop sign\")" : {
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Stop sign\")" : 32,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Open hand\")" : 1
+      },
+      "Optional(\"Thumbs up\")" : {
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Thumbs up\")" : 32,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Closed fist\")" : 1,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Pinch\")" : 0
+      },
+      "Optional(\"Pinch\")" : {
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Pinch\")" : 30,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Unknown\")" : 2,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Thumbs up\")" : 1,
+        "Optional(\"Closed fist\")" : 0
+      }
+    },
+    "balanced_accuracy" : 0.9504132231404957,
+    "class_metrics" : {
+      "Optional(\"Stop sign\")" : {
+        "recall" : 0.96969696969696972,
+        "f1" : 0.92753623188405798,
+        "precision" : 0.88888888888888884
+      },
+      "Optional(\"Pointing down\")" : {
+        "f1" : 0.96969696969696972,
+        "recall" : 0.96969696969696972,
+        "precision" : 0.96969696969696972
+      },
+      "Optional(\"Unknown\")" : {
+        "recall" : 0.84848484848484851,
+        "f1" : 0.84848484848484862,
+        "precision" : 0.84848484848484851
+      },
+      "Optional(\"Ok sign\")" : {
+        "recall" : 0.96969696969696972,
+        "precision" : 1,
+        "f1" : 0.98461538461538467
+      },
+      "Optional(\"Pointing up\")" : {
+        "recall" : 1,
+        "f1" : 0.9850746268656716,
+        "precision" : 0.97058823529411764
+      },
+      "Optional(\"Closed fist\")" : {
+        "recall" : 0.90909090909090906,
+        "f1" : 0.93749999999999989,
+        "precision" : 0.967741935483871
+      },
+      "Optional(\"Peace\")" : {
+        "recall" : 0.96969696969696972,
+        "f1" : 0.98461538461538467,
+        "precision" : 1
+      },
+      "Optional(\"Thumbs down\")" : {
+        "recall" : 1,
+        "precision" : 1,
+        "f1" : 1
+      },
+      "Optional(\"Open hand\")" : {
+        "f1" : 0.9538461538461539,
+        "precision" : 0.96875,
+        "recall" : 0.93939393939393945
+      },
+      "Optional(\"Thumbs up\")" : {
+        "recall" : 0.96969696969696972,
+        "f1" : 0.95522388059701502,
+        "precision" : 0.94117647058823528
+      },
+      "Optional(\"Pinch\")" : {
+        "precision" : 0.90909090909090906,
+        "recall" : 0.90909090909090906,
+        "f1" : 0.90909090909090906
+      }
+    },
+    "accuracy" : 0.95041322314049592
+  },
+  "testing" : {
+    "confusion_matrix" : {
+      "Optional(\"Thumbs down\")" : {
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Unknown\")" : 2,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pinch\")" : 1,
+        "Optional(\"Closed fist\")" : 1,
+        "Optional(\"Thumbs down\")" : 63,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Peace\")" : 0
+      },
+      "Optional(\"Closed fist\")" : {
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Closed fist\")" : 63,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Thumbs up\")" : 1,
+        "Optional(\"Unknown\")" : 3,
+        "Optional(\"Thumbs down\")" : 0
+      },
+      "Optional(\"Pointing down\")" : {
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Pointing down\")" : 66,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Unknown\")" : 1,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Closed fist\")" : 0
+      },
+      "Optional(\"Ok sign\")" : {
+        "Optional(\"Ok sign\")" : 65,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Open hand\")" : 1,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Stop sign\")" : 1
+      },
+      "Optional(\"Pointing up\")" : {
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing up\")" : 66,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Unknown\")" : 1
+      },
+      "Optional(\"Thumbs up\")" : {
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Thumbs up\")" : 67,
+        "Optional(\"Unknown\")" : 0
+      },
+      "Optional(\"Unknown\")" : {
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Unknown\")" : 67,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Ok sign\")" : 0
+      },
+      "Optional(\"Pinch\")" : {
+        "Optional(\"Closed fist\")" : 1,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Unknown\")" : 1,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Pointing down\")" : 2,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Pinch\")" : 63
+      },
+      "Optional(\"Open hand\")" : {
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Stop sign\")" : 3,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Unknown\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Open hand\")" : 64
+      },
+      "Optional(\"Peace\")" : {
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Stop sign\")" : 0,
+        "Optional(\"Pointing down\")" : 1,
+        "Optional(\"Unknown\")" : 1,
+        "Optional(\"Closed fist\")" : 1,
+        "Optional(\"Thumbs up\")" : 0,
+        "Optional(\"Open hand\")" : 0,
+        "Optional(\"Peace\")" : 63,
+        "Optional(\"Pointing up\")" : 1
+      },
+      "Optional(\"Stop sign\")" : {
+        "Optional(\"Unknown\")" : 1,
+        "Optional(\"Closed fist\")" : 0,
+        "Optional(\"Pointing down\")" : 0,
+        "Optional(\"Pinch\")" : 0,
+        "Optional(\"Open hand\")" : 3,
+        "Optional(\"Pointing up\")" : 0,
+        "Optional(\"Ok sign\")" : 0,
+        "Optional(\"Peace\")" : 0,
+        "Optional(\"Stop sign\")" : 63,
+        "Optional(\"Thumbs down\")" : 0,
+        "Optional(\"Thumbs up\")" : 0
+      }
+    },
+    "accuracy" : 0.96336499321573943,
+    "balanced_accuracy" : 0.96336499321573943,
+    "class_metrics" : {
+      "Optional(\"Stop sign\")" : {
+        "precision" : 0.94029850746268662,
+        "f1" : 0.94029850746268651,
+        "recall" : 0.94029850746268662
+      },
+      "Optional(\"Pointing up\")" : {
+        "recall" : 0.9850746268656716,
+        "precision" : 0.9850746268656716,
+        "f1" : 0.9850746268656716
+      },
+      "Optional(\"Peace\")" : {
+        "recall" : 0.94029850746268662,
+        "precision" : 1,
+        "f1" : 0.96923076923076923
+      },
+      "Optional(\"Thumbs down\")" : {
+        "f1" : 0.96923076923076923,
+        "recall" : 0.94029850746268662,
+        "precision" : 1
+      },
+      "Optional(\"Closed fist\")" : {
+        "precision" : 0.95454545454545459,
+        "recall" : 0.94029850746268662,
+        "f1" : 0.94736842105263164
+      },
+      "Optional(\"Unknown\")" : {
+        "f1" : 0.93055555555555558,
+        "precision" : 0.87012987012987009,
+        "recall" : 1
+      },
+      "Optional(\"Thumbs up\")" : {
+        "recall" : 1,
+        "precision" : 0.98529411764705888,
+        "f1" : 0.99259259259259258
+      },
+      "Optional(\"Pinch\")" : {
+        "recall" : 0.94029850746268662,
+        "precision" : 0.984375,
+        "f1" : 0.96183206106870234
+      },
+      "Optional(\"Open hand\")" : {
+        "recall" : 0.95522388059701491,
+        "f1" : 0.94814814814814818,
+        "precision" : 0.94117647058823528
+      },
+      "Optional(\"Ok sign\")" : {
+        "precision" : 1,
+        "recall" : 0.97014925373134331,
+        "f1" : 0.98484848484848486
+      },
+      "Optional(\"Pointing down\")" : {
+        "f1" : 0.97058823529411764,
+        "recall" : 0.9850746268656716,
+        "precision" : 0.95652173913043481
+      }
+    }
+  }
+}
